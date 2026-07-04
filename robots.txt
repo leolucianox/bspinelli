@@ -1,0 +1,5 @@
+# TODO: confirme o domínio real antes de publicar (usado no Sitemap abaixo)
+User-agent: *
+Allow: /
+
+Sitemap: https://SEU-DOMINIO-AQUI/sitemap.xml

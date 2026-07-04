@@ -5,9 +5,65 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dra. Beatriz Spinelli — Harmonização Facial</title>
 <meta name="description" content="Harmonização facial estratégica com a Dra. Beatriz Spinelli (CROSP 162964). Resultados elegantes, sutis e naturais em São José dos Campos e Caraguatatuba.">
+<!-- TODO: defina o domínio real e atualize canonical, og:url e o "url" do JSON-LD abaixo -->
+<link rel="canonical" href="https://SEU-DOMINIO-AQUI/">
+
+<!-- Open Graph / redes sociais -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://SEU-DOMINIO-AQUI/">
+<meta property="og:title" content="Dra. Beatriz Spinelli — Harmonização Facial">
+<meta property="og:description" content="Harmonização facial estratégica com a Dra. Beatriz Spinelli (CROSP 162964). Resultados elegantes, sutis e naturais em São José dos Campos e Caraguatatuba.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dra. Beatriz Spinelli — Harmonização Facial">
+<meta name="twitter:description" content="Harmonização facial estratégica com a Dra. Beatriz Spinelli (CROSP 162964). Resultados elegantes, sutis e naturais em São José dos Campos e Caraguatatuba.">
+<meta name="twitter:image" content="assets/img/og-image.jpg">
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon-180.png">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300..800;1,300..600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Dra. Beatriz Spinelli — Harmonização Facial",
+  "image": "assets/img/og-image.jpg",
+  "url": "https://SEU-DOMINIO-AQUI/",
+  "telephone": "+5512999999999",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Endereço confirmado no agendamento",
+    "addressLocality": "São José dos Campos",
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "09:00",
+      "closes": "13:00"
+    }
+  ],
+  "sameAs": ["https://instagram.com/dra.beatrizspinelli"]
+}
+</script>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
   tailwind.config = {
@@ -339,7 +395,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-ink-deep text-dune">
+<footer id="site-footer" class="bg-ink-deep text-dune">
   <div class="max-w-[1180px] mx-auto px-5 sm:px-8 lg:px-14 py-10 sm:py-14 flex flex-wrap gap-7 justify-between items-start">
     <div>
       <div class="font-serif text-xl sm:text-2xl text-cream">Dra. Beatriz Spinelli</div>
@@ -353,13 +409,16 @@
     </div>
   </div>
   <div class="border-t border-gold/[0.14]">
-    <div class="max-w-[1180px] mx-auto px-5 sm:px-8 lg:px-14 py-4 text-xs text-footnote tracking-wide">© Dra. Beatriz Spinelli. Todos os direitos reservados. Este conteúdo tem caráter informativo e não substitui uma avaliação profissional.</div>
+    <div class="max-w-[1180px] mx-auto px-5 sm:px-8 lg:px-14 py-4 flex flex-wrap gap-3 justify-between items-center text-xs text-footnote tracking-wide">
+      <span>© Dra. Beatriz Spinelli. Todos os direitos reservados. Este conteúdo tem caráter informativo e não substitui uma avaliação profissional.</span>
+      <a href="https://leoluciano.com.br/" target="_blank" rel="noopener" class="credit group min-h-11 inline-flex items-center gap-2 text-footnote hover:text-cream transition duration-200">Criado por <span class="credit-badge flex items-center justify-center w-[26px] h-[26px] rounded-full bg-gold group-hover:bg-gold-light transition duration-200 text-ink group-hover:text-espresso font-sans font-semibold text-[0.65rem]">LL</span></a>
+    </div>
   </div>
 </footer>
 
 <!-- FLOATING WHATSAPP -->
 <!-- TROCAR: numero do WhatsApp -->
-<a href="https://wa.me/5512999999999?text=Ol%C3%A1%2C%20Dra.%20Beatriz!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20de%20harmoniza%C3%A7%C3%A3o%20facial." target="_blank" rel="noopener" aria-label="Agendar no WhatsApp" class="min-h-11 fixed right-4 sm:right-6 lg:right-7 bottom-4 sm:bottom-6 lg:bottom-7 z-[80] inline-flex items-center gap-2 bg-gold hover:bg-gold-light transition duration-200 text-ink font-semibold text-sm px-5 py-3.5 rounded-full shadow-[0_16px_34px_-12px_rgba(0,0,0,0.55)] animate-floatIn">Agendar <span>→</span></a>
+<a id="floating-whatsapp" href="https://wa.me/5512999999999?text=Ol%C3%A1%2C%20Dra.%20Beatriz!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20de%20harmoniza%C3%A7%C3%A3o%20facial." target="_blank" rel="noopener" aria-label="Agendar no WhatsApp" class="min-h-11 fixed right-4 sm:right-6 lg:right-7 bottom-4 sm:bottom-6 lg:bottom-7 z-[80] inline-flex items-center gap-2 bg-gold hover:bg-gold-light transition duration-200 text-ink font-semibold text-sm px-5 py-3.5 rounded-full shadow-[0_16px_34px_-12px_rgba(0,0,0,0.55)] animate-floatIn">Agendar <span>→</span></a>
 
 </div>
 
@@ -431,6 +490,18 @@
         ticking = true;
       }
     }, { passive: true });
+
+    // sobe o botão flutuante alguns pixels ao chegar no footer, pra não sobrepor a linha de crédito
+    var floatBtn = document.getElementById('floating-whatsapp');
+    var footerEl = document.getElementById('site-footer');
+    if (floatBtn && footerEl && 'IntersectionObserver' in window) {
+      var footerObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          floatBtn.style.transform = entry.isIntersecting ? 'translateY(-20px)' : '';
+        });
+      }, { threshold: 0 });
+      footerObserver.observe(footerEl);
+    }
   })();
 </script>
 
