@@ -1,0 +1,8 @@
+# Fotos brutas / uploads de referência (não fazem parte do site publicado)
+refs/
+uploads/
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.vscode/
